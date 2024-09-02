@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Ce script affiche les ports d'écoute (listening) avec les PID et les noms des programmes associés
+
+sudo ss -tuln
