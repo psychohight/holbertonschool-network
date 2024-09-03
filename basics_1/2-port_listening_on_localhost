@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Écouter sur le port 98 sur localhost
+nc -l 98
