@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/user/bin/env bash
 # Sauvegarder l'état actuel du fichier /etc/hosts
 
 cp /etc/hosts /etc/hosts.backup
