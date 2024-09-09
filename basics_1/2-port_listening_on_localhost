@@ -1,4 +1,4 @@
-#!/user/bin/env bash
+#!/usr/bin/env bash
 # Écouter sur le port 98 sur localhost
 
 nc -l 98

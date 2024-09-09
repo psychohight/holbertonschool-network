@@ -1,4 +1,4 @@
-#!/user/bin/env bash
+#!/usr/bin/env bash
 # Script Bash qui configure un serveur Ubuntu
 
 sudo bash -c 'echo "127.0.0.2    localhost" >> /etc/hosts'

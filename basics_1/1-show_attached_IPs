@@ -1,4 +1,4 @@
-#!/user/bin/env bash
+#!/usr/bin/env bash
 # Affiche toutes les adresses IPv4 actives
 
 ip -4 addr show
