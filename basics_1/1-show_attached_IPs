@@ -2,4 +2,4 @@
 
 # Affiche toutes les adresses IPv4 actives
 
-hostname -I | tr ' ' '\n'
+ip -4 addr show
