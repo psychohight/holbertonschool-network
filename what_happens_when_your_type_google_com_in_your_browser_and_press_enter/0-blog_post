@@ -1,0 +1,24 @@
+Blog Post Plan:
+DNS Request (Domain Name System)
+When you type "www.google.com", your browser needs to convert this domain name into an IP address. This is done by querying the DNS server. If the IP address is already cached, it will be used directly; otherwise, the request passes through several DNS servers until the IP is found.
+
+Establishing a TCP/IP Connection
+Once the IP address is obtained, a connection is established with the destination server via the Transmission Control Protocol (TCP) on a specific port (often port 443 for HTTPS). This ensures reliable data transmission.
+
+Firewall and Network Security
+Before the connection reaches the server, it may pass through a firewall that checks whether the traffic is allowed or blocked according to security rules. The firewall protects servers from potential threats.
+
+HTTPS and SSL/TLS
+The HTTPS protocol ensures that the connection between your browser and the server is secured via SSL/TLS. The browser and the server exchange certificates and establish a key to encrypt the transmitted data.
+
+Load Balancer
+In a large-scale infrastructure like Google’s, requests are distributed across multiple servers through a load balancer. This ensures that the most appropriate server responds to the request.
+
+Web Server
+The web server receives the request and sends the requested content, such as HTML pages, images, or JavaScript, to the browser. This is the first step in generating the visible response.
+
+Application Server
+If the web page contains dynamic elements (such as user-specific data), the web server can communicate with an application server that handles more complex requests.
+
+Database
+The application server may then interact with a database to retrieve specific information needed to build the requested page, such as user data, articles, etc.
